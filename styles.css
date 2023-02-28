@@ -1,0 +1,18 @@
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    border: 1px solid red;
+}
+
+/* Atribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
