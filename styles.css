@@ -4,9 +4,54 @@ body {
 }
 
 main {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    width: 50%;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card-sedans {
+    background-color: aqua;
+}
+
+.card-suvs {
+    background-color: violet;
+}
+
+.card-luxury {
+    background-color: seagreen;
+}
+
+.card-title {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card-button {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+svg {
+    border: 1px solid orange;
+}
+div {
+    border: 1px solid red;
+}
+p {
+    border: 1px solid black;
+}
+h2 {
+    border: 1px solid violet;
+}
+button {
+    border: 1px solid blue;
 }
 
 footer {
