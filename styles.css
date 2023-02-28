@@ -18,19 +18,23 @@ main {
 }
 
 .card-sedans {
-    background-color: aqua;
+    background-color: hsl(31, 77%, 52%);
 }
 
 .card-suvs {
-    background-color: violet;
+    background-color: hsl(184, 100%, 22%);
 }
 
 .card-luxury {
-    background-color: seagreen;
+    background-color: hsl(179, 100%, 13%);
 }
 
 .card-title {
     font-family: 'Big Shoulders Display', cursive;
+}
+
+.card-description {
+    color: sla(0, 0%, 100%, 0.75);
 }
 
 .card-button {
