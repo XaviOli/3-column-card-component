@@ -1,11 +1,14 @@
 body {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 main {
     display: flex;
     justify-content: center;
+    border: 5px solid yellow;
 }
 
 .card-container {
@@ -40,6 +43,13 @@ main {
 .card-button {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+}
+
+/* Provisional lines to see containers */
+
+body {
+    border: 1px solid green;
 }
 
 svg {
@@ -63,5 +73,6 @@ footer {
 }
 
 /* Atribution */
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
