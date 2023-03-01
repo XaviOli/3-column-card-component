@@ -34,16 +34,36 @@ main {
 
 .card-title {
     font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
 }
 
 .card-description {
-    color: sla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: normal;
+    font-size: 10px;
 }
 
 .card-button {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
     border-radius: 20px;
+    border-style: none;
+}
+
+.card-button-sedans {
+    color: hsl(31, 77%, 52%);
+}
+.card-button-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.card-button-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.card-button-text {
+    font-size: 10px;
+    padding: 15px;
 }
 
 /* Provisional lines to see containers */
